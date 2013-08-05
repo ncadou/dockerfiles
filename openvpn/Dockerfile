@@ -1,6 +1,6 @@
 # Dockerfile for installing OpenVPN.
 
-FROM base
+FROM ubuntu
 MAINTAINER Nicolas Cadou <ncadou@cadou.ca>
 
 # It's not possible to use mknod inside a container with the default LXC
