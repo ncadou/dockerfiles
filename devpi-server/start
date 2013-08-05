@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+echo "Index URL: http://$(hostname):3141/root/dev/+simple/"
+echo '(replace 3141 with whatever port `docker port` shows)'
+echo '-----------------------------------------------------'
+
+echo 127.0.0.1 $(hostname) > /etc/hosts
+su - devpi -c "venv/bin/devpi-server --host $(hostname) $*"
