@@ -1,0 +1,3 @@
+[submodule "email-server"]
+	path = email-server
+	url = git@github.com:ncadou/docker-email-server.git
