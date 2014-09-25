@@ -1,3 +1,6 @@
 [submodule "email-server"]
 	path = email-server
 	url = git@github.com:ncadou/docker-email-server.git
+[submodule "openvpn-client"]
+	path = openvpn-client
+	url = git@github.com:ncadou/docker-openvpn-client.git
